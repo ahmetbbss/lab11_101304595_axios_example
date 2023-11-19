@@ -1,0 +1,71 @@
+.user-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-image-container {
+    padding: 10px;
+    background-color: #badef5;
+    text-align: center;
+    position: relative;
+  }
+  .user-info-container {
+    background-color: #79b0d5;
+    flex-grow: 1;
+  }
+  
+  .user-image {
+    border-radius: 30%;
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 50%;
+  }
+  
+  .details-button {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #34db58;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: rgb(34, 2, 2);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .details-button:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .user-info-container {
+    padding: 10px;
+  }
+  
+  .user-full-name {
+    display: flex;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 800;
+  }
+  
+  .user-detail {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .user-detail-title {
+    font-weight: bold;
+  }
+  
+  .user-footer {
+    padding: 15px;
+    background-color: #3ab929;
+  }
+  
